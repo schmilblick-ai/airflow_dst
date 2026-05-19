@@ -5,7 +5,7 @@ import datetime
 def print_date():
     print(datetime.datetime.now())
 with DAG(
-    dag_id='minutely_dag_without_catchup',
+    dag_id='minutely_dag_without_catchup1',
     description='My DAG that\'s triggered every minute',
     tags=['tutorial', 'datascientest'],
     schedule_interval='* * * * *',
@@ -15,7 +15,7 @@ with DAG(
     },
     catchup=False
 ) as my_dag:
-my_task = PythonOperator(
+    my_task = PythonOperator(
         task_id='print_date_task',
         python_callable=print_date
     )

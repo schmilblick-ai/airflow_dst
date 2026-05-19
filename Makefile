@@ -25,3 +25,6 @@ airflow_reset:
 
 airflow_ps:
 	docker-compose ps
+
+airflow_prepdocker_sock:
+	sudo chmod a+rw /var/run/docker.sock
