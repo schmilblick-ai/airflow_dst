@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS customer (
+CREATE TABLE IF NOT EXISTS customers (
     id UUID PRIMARY KEY,
     lastname VARCHAR,
     firstname VARCHAR,
