@@ -3,18 +3,20 @@ from airflow.utils.dates import days_ago
 from airflow.sensors.filesystem import FileSensor
 from airflow.operators.docker_operator import DockerOperator
 from docker.types import Mount
-from plugins.build_init_order import build_init_order
-
+#from plugins.build_init_order import build_init_order
+from build_init_order import build_init_order
 #  Le type Mount nous permet d'ajouter un volume à nos conteneurs.
 #	Ajoutez la définition du DAG suivante :
+import os
+
 with DAG(
-    dag_id='load_order',
+    dag_id='load_order2',
     tags=['order', 'docker', 'postgres', 'datascientest'],
     default_args={
         'owner': 'airflow',
         'start_date': days_ago(0, minute=1),
     },
-    #schedule_interval='0 17 * * *',
+    schedule_interval=None, #'* * * * *',
     catchup=False
 ) as dag:
  
@@ -30,6 +32,9 @@ with DAG(
         mode='poke'
     )
  
+    #define DATA_PATH avec un defaut si pas remonté depuis le makefile our le yaml file
+    DATA_PATH = os.environ.get('AIRFLOW_PROJ_DIR', '/home/ubuntu/airflow_dst') #'/opt/airflow')
+    DATA_PATH = '/home/ubuntu/airflow_dst'
     #  Ajoutez la tâche des DockerOperator :
 	#  python_transform :
     python_transform = DockerOperator(
@@ -38,7 +43,7 @@ with DAG(
         auto_remove=True,
         command='python3 main.py',
         mounts=[
-            Mount(source='/home/ubuntu/airflow/data/to_ingest', target='/app/data/to_ingest', type='bind')
+            Mount(source=f'{DATA_PATH}/data/to_ingest', target='/opt/airflow/data/to_ingest', type='bind')
         ]
     )
 
@@ -55,9 +60,10 @@ with DAG(
             'PASSWORD': 'airflow'
         },
         command='python3 main.py',
-        network_mode='airflow_default',
+        network_mode='airflow_dst_default', #  <- vérifier les network avec docker network ls, car le nom peu dépendre du dossier d'installation
+        # docker network inspect airflow_dst_default | grep -E "(Name|postgres)"
         mounts=[
-            Mount(source='/home/ubuntu/airflow/data/to_ingest', target='/app/data/to_ingest', type='bind')
+            Mount(source=f'{DATA_PATH}/data/to_ingest', target='/opt/airflow/data/to_ingest', type='bind')
         ]
     )
 

@@ -53,7 +53,8 @@ def load_data(orders, df_customer, df_product, data_directory):
     print(f'orders, customers and products loaded in {data_directory}/to_ingest/silver directory')
 
 if __name__ == '__main__':
-    data_directory = 'data'
+    data_directory = '/opt/airflow/data'
+    print(f"data_directory = {data_directory}") 
     orders = extract_orders(data_directory)
     df_customer, df_product = build_df_customer_product(orders)
     df_customer = transform_df_customer(df_customer.copy())

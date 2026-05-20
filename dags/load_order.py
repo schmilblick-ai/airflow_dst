@@ -6,13 +6,13 @@ from docker.types import Mount
 #  Le type Mount nous permet d'ajouter un volume à nos conteneurs.
 #	Ajoutez la définition du DAG suivante :
 with DAG(
-    dag_id='load_order1',
+    dag_id='load_order',
     tags=['order', 'docker', 'postgres', 'datascientest'],
     default_args={
         'owner': 'airflow',
         'start_date': days_ago(0, minute=1),
     },
-    schedule_interval='0 17 * * *',
+    schedule_interval='0 18 * * *',
     catchup=False
 ) as dag:
  

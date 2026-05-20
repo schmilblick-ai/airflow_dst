@@ -88,6 +88,8 @@ services:
       timeout: 10s
       retries: 5
     restart: always
+    group_add:
+      - "998"  # remplacer par ton GID de docker : getent group docker | cut -d: -f3
   airflow-init:
     <<: *airflow-common
     command: version

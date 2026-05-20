@@ -109,7 +109,8 @@ def upsert_order_to_psql(table_order, list_order):
     print(f'{rowcount} order rows has been inserted or updated')
 
 if __name__ == '__main__':
-    data_directory = 'data'
+    data_directory = '/opt/airflow/data'
+    print(f"data_directory = {data_directory}") 
     config = load_config()
     df_customer = pd.read_csv(f'{data_directory}/to_ingest/silver/customers.csv')
     upsert_customer_to_psql(table_customer, df_customer)

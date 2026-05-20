@@ -1,3 +1,6 @@
+# var AIRFLOW_PROJ_DIR utile en cas de docker 
+export AIRFLOW_PROJ_DIR := $(shell pwd)
+
 #pour première installation ou mise à jour config et image
 airflow_creadb:
 	docker-compose up airflow-init
