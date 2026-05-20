@@ -31,3 +31,16 @@ airflow_ps:
 
 airflow_prepdocker_sock:
 	sudo chmod a+rw /var/run/docker.sock
+
+
+exam_creadb:
+	docker-compose -f docker-compose-exam.yaml up airflow-init
+
+exam_start:
+	docker-compose -f docker-compose-exam.yaml up -d
+
+exam_down:
+	docker-compose -f docker-compose-exam.yaml down 
+
+exam_ps:
+	docker-compose -f docker-compose-exam.yaml ps

@@ -14,18 +14,14 @@ x-airflow-common: &airflow-common
     AIRFLOW__SMTP__SMTP_USER: "de.airflow@gmail.com"
     AIRFLOW__SMTP__SMTP_PASSWORD: "cfsrvkongsobheta"
     AIRFLOW__SMTP__SMTP_MAIL_FROM: "de.airflow@gmail.com"
-
-    _PIP_ADDITIONAL_REQUIREMENTS: ${_PIP_ADDITIONAL_REQUIREMENTS:- scikit-learn}
+    # _PIP_ADDITIONAL_REQUIREMENTS: ${_PIP_ADDITIONAL_REQUIREMENTS:-}
+    _PIP_ADDITIONAL_REQUIREMENTS: ${_PIP_ADDITIONAL_REQUIREMENTS:- apache-airflow-providers-docker} # librairie supplémentaire
   volumes:
     - ./dags:/opt/airflow/dags
     - ./logs:/opt/airflow/logs
     - ./plugins:/opt/airflow/plugins
-    - type: bind
-      source: ./clean_data
-      target: /app/clean_data
-    - type: bind
-      source: ./raw_files
-      target: /app/raw_files
+    - /var/run/docker.sock:/var/run/docker.sock # volume supplémentaire
+    - ./data:/opt/airflow/data                  # nouveau volume pour la mise ne production
   user: "${AIRFLOW_UID:-50000}:${AIRFLOW_GID:-50000}"
   depends_on:
     redis:
@@ -47,9 +43,8 @@ services:
       interval: 5s
       retries: 5
     restart: always
-
   redis:
-    image: redis:latest
+    image: redis:7
     ports:
       - 6379:6379
     healthcheck:
@@ -58,7 +53,6 @@ services:
       timeout: 30s
       retries: 50
     restart: always
-
   airflow-webserver:
     <<: *airflow-common
     command: webserver
@@ -70,7 +64,6 @@ services:
       timeout: 10s
       retries: 5
     restart: always
-
   airflow-scheduler:
     <<: *airflow-common
     command: scheduler
@@ -84,7 +77,6 @@ services:
       timeout: 10s
       retries: 5
     restart: always
-
   airflow-worker:
     <<: *airflow-common
     command: celery worker
@@ -96,7 +88,8 @@ services:
       timeout: 10s
       retries: 5
     restart: always
-
+    group_add:
+      - "998"  # remplacer par ton GID de docker : getent group docker | cut -d: -f3
   airflow-init:
     <<: *airflow-common
     command: version
@@ -106,7 +99,6 @@ services:
       _AIRFLOW_WWW_USER_CREATE: "true"
       _AIRFLOW_WWW_USER_USERNAME: ${_AIRFLOW_WWW_USER_USERNAME:-airflow}
       _AIRFLOW_WWW_USER_PASSWORD: ${_AIRFLOW_WWW_USER_PASSWORD:-airflow}
-
   flower:
     <<: *airflow-common
     command: celery flower
@@ -119,17 +111,6 @@ services:
       retries: 5
     restart: always
 
-  dashboard:
-    image: datascientest/dashapp:1.0.0
-    volumes:
-      - type: bind
-        source: ./clean_data
-        target: /app/clean_data
-      - type: bind
-        source: ./raw_files
-        target: /app/raw_files
-    ports:
-      - 8050:8050
-
 volumes:
   postgres-db-volume:
+

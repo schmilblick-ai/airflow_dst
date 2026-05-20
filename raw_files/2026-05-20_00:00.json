@@ -1,0 +1,198 @@
+[
+    {
+        "city": "paris, France",
+        "infos": {
+            "coord": {
+                "lon": 2.3488,
+                "lat": 48.8534
+            },
+            "weather": [
+                {
+                    "id": 800,
+                    "main": "Clear",
+                    "description": "clear sky",
+                    "icon": "01n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 286.69,
+                "feels_like": 286.42,
+                "temp_min": 284.92,
+                "temp_max": 288.23,
+                "pressure": 1028,
+                "humidity": 89,
+                "sea_level": 1028,
+                "grnd_level": 1018
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.03,
+                "deg": 0
+            },
+            "clouds": {
+                "all": 0
+            },
+            "dt": 1779318038,
+            "sys": {
+                "type": 2,
+                "id": 2012208,
+                "country": "FR",
+                "sunrise": 1779336116,
+                "sunset": 1779391963
+            },
+            "timezone": 7200,
+            "id": 2988507,
+            "name": "Paris",
+            "cod": 200
+        }
+    },
+    {
+        "city": "Paris, Kentucky ",
+        "infos": {
+            "coord": {
+                "lon": 2.3488,
+                "lat": 48.8534
+            },
+            "weather": [
+                {
+                    "id": 800,
+                    "main": "Clear",
+                    "description": "clear sky",
+                    "icon": "01n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 286.69,
+                "feels_like": 286.42,
+                "temp_min": 284.92,
+                "temp_max": 288.23,
+                "pressure": 1028,
+                "humidity": 89,
+                "sea_level": 1028,
+                "grnd_level": 1018
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.03,
+                "deg": 0
+            },
+            "clouds": {
+                "all": 0
+            },
+            "dt": 1779318038,
+            "sys": {
+                "type": 2,
+                "id": 2012208,
+                "country": "FR",
+                "sunrise": 1779336116,
+                "sunset": 1779391963
+            },
+            "timezone": 7200,
+            "id": 2988507,
+            "name": "Paris",
+            "cod": 200
+        }
+    },
+    {
+        "city": "london",
+        "infos": {
+            "coord": {
+                "lon": 5.0982,
+                "lat": 46.6327
+            },
+            "weather": [
+                {
+                    "id": 801,
+                    "main": "Clouds",
+                    "description": "few clouds",
+                    "icon": "02n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 285.4,
+                "feels_like": 285.08,
+                "temp_min": 285.4,
+                "temp_max": 285.4,
+                "pressure": 1027,
+                "humidity": 92,
+                "sea_level": 1027,
+                "grnd_level": 1005
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 2.54,
+                "deg": 18,
+                "gust": 7.59
+            },
+            "clouds": {
+                "all": 17
+            },
+            "dt": 1779318197,
+            "sys": {
+                "type": 2,
+                "id": 2017504,
+                "country": "FR",
+                "sunrise": 1779335951,
+                "sunset": 1779390809
+            },
+            "timezone": 7200,
+            "id": 2997438,
+            "name": "London",
+            "cod": 200
+        }
+    },
+    {
+        "city": "Washington, District of Columbia",
+        "infos": {
+            "coord": {
+                "lon": -77.0366,
+                "lat": 38.895
+            },
+            "weather": [
+                {
+                    "id": 501,
+                    "main": "Rain",
+                    "description": "moderate rain",
+                    "icon": "10d"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 296.5,
+                "feels_like": 296.93,
+                "temp_min": 294.48,
+                "temp_max": 298.05,
+                "pressure": 1015,
+                "humidity": 78,
+                "sea_level": 1015,
+                "grnd_level": 1008
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 2.06,
+                "deg": 350
+            },
+            "rain": {
+                "1h": 1.53
+            },
+            "clouds": {
+                "all": 0
+            },
+            "dt": 1779318197,
+            "sys": {
+                "type": 2,
+                "id": 2002287,
+                "country": "US",
+                "sunrise": 1779270703,
+                "sunset": 1779322675
+            },
+            "timezone": -14400,
+            "id": 4361885,
+            "name": "Washington DC.",
+            "cod": 200
+        }
+    }
+]
