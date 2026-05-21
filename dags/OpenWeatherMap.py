@@ -6,7 +6,6 @@ from datetime import datetime
 import requests, json
 import os
 import pandas as pd
-import pandas as pd
 from sklearn.model_selection import cross_val_score
 from sklearn.linear_model import LinearRegression
 from sklearn.tree import DecisionTreeRegressor
