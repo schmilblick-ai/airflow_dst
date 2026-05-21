@@ -1,7 +1,7 @@
 from airflow import DAG
 from airflow.utils.dates import days_ago
 from airflow.operators.python import PythonOperator
-import datetime, time
+import time
 from datetime import datetime
 import requests, json
 import os
