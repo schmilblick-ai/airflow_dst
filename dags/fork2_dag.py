@@ -6,8 +6,10 @@ import datetime
 
 def successful_task():
     print('success')
+
 def failed_task():
     raise Exception('This task did not work!')
+
 def random_fail_task():
     random.seed()
     a = random.random() 

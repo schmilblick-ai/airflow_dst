@@ -18,6 +18,7 @@ def print_date_and_hello():
     time.sleep(30)
     print(datetime.datetime.now())
     print('Hello from Airflow')
+
 def print_date_and_hello_again():
     print('Hello from Airflow again')
 

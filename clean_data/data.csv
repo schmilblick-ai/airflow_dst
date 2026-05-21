@@ -1,11 +1,189 @@
 temperature,city,pression,date
-278.42,Paris,1010,mon-fichier
-276.92,London,1013,mon-fichier
-280.58,Washington,1019,mon-fichier
-292.58,Orleans,1024,mon-fichier
-278.37,Arrondissement de Rennes,1014,mon-fichier
-279.66,Paris,1015,demo-2022-01-05 14:54:48
-279.06,London,1015,demo-2022-01-05 14:54:48
-265.21,Washington,1022,demo-2022-01-05 14:54:48
-286.51,Orleans,1018,demo-2022-01-05 14:54:48
-278.12,Arrondissement de Rennes,1018,demo-2022-01-05 14:54:48
+284.16,"paris, France",1028,2026-05-21 05:10
+284.16,"Paris, Kentucky ",1028,2026-05-21 05:10
+282.62,london,1028,2026-05-21 05:10
+294.49,"Washington, District of Columbia",1018,2026-05-21 05:10
+284.16,"paris, France",1028,2026-05-21 05:09
+284.16,"Paris, Kentucky ",1028,2026-05-21 05:09
+282.62,london,1028,2026-05-21 05:09
+294.49,"Washington, District of Columbia",1018,2026-05-21 05:09
+284.16,"paris, France",1028,2026-05-21 05:08
+284.16,"Paris, Kentucky ",1028,2026-05-21 05:08
+282.62,london,1028,2026-05-21 05:08
+294.49,"Washington, District of Columbia",1018,2026-05-21 05:08
+284.16,"paris, France",1028,2026-05-21 05:07
+284.16,"Paris, Kentucky ",1028,2026-05-21 05:07
+282.62,london,1028,2026-05-21 05:07
+294.49,"Washington, District of Columbia",1018,2026-05-21 05:07
+284.16,"paris, France",1028,2026-05-21 05:06
+284.16,"Paris, Kentucky ",1028,2026-05-21 05:06
+282.62,london,1028,2026-05-21 05:06
+294.49,"Washington, District of Columbia",1018,2026-05-21 05:06
+284.16,"paris, France",1028,2026-05-21 05:05
+284.16,"Paris, Kentucky ",1028,2026-05-21 05:05
+282.62,london,1028,2026-05-21 05:05
+294.49,"Washington, District of Columbia",1018,2026-05-21 05:05
+284.16,"paris, France",1028,2026-05-21 05:04
+284.16,"Paris, Kentucky ",1028,2026-05-21 05:04
+282.62,london,1028,2026-05-21 05:04
+294.49,"Washington, District of Columbia",1018,2026-05-21 05:04
+284.07,"paris, France",1028,2026-05-21 04:54
+284.07,"Paris, Kentucky ",1028,2026-05-21 04:54
+282.62,london,1028,2026-05-21 04:54
+294.51,"Washington, District of Columbia",1018,2026-05-21 04:54
+284.07,"paris, France",1028,2026-05-21 04:53
+284.07,"Paris, Kentucky ",1028,2026-05-21 04:53
+282.62,london,1028,2026-05-21 04:53
+294.51,"Washington, District of Columbia",1018,2026-05-21 04:53
+284.07,"paris, France",1028,2026-05-21 04:52
+284.07,"Paris, Kentucky ",1028,2026-05-21 04:52
+282.62,london,1028,2026-05-21 04:52
+294.51,"Washington, District of Columbia",1018,2026-05-21 04:52
+284.07,"paris, France",1028,2026-05-21 04:51
+284.07,"Paris, Kentucky ",1028,2026-05-21 04:51
+282.62,london,1028,2026-05-21 04:51
+294.51,"Washington, District of Columbia",1018,2026-05-21 04:51
+284.17,"paris, France",1028,2026-05-21 04:50
+283.46,"Paris, Kentucky ",1028,2026-05-21 04:50
+282.62,london,1028,2026-05-21 04:50
+294.48,"Washington, District of Columbia",1018,2026-05-21 04:50
+284.17,"paris, France",1028,2026-05-21 04:49
+283.46,"Paris, Kentucky ",1028,2026-05-21 04:49
+282.62,london,1028,2026-05-21 04:49
+294.48,"Washington, District of Columbia",1018,2026-05-21 04:49
+284.17,"paris, France",1028,2026-05-21 04:48
+283.46,"Paris, Kentucky ",1028,2026-05-21 04:48
+282.62,london,1028,2026-05-21 04:48
+294.48,"Washington, District of Columbia",1018,2026-05-21 04:48
+284.17,"paris, France",1028,2026-05-21 04:47
+283.46,"Paris, Kentucky ",1028,2026-05-21 04:47
+282.62,london,1028,2026-05-21 04:47
+294.48,"Washington, District of Columbia",1018,2026-05-21 04:47
+284.17,"paris, France",1028,2026-05-21 04:46
+283.46,"Paris, Kentucky ",1028,2026-05-21 04:46
+282.62,london,1028,2026-05-21 04:46
+294.48,"Washington, District of Columbia",1018,2026-05-21 04:46
+284.17,"paris, France",1028,2026-05-21 04:45
+283.46,"Paris, Kentucky ",1028,2026-05-21 04:45
+282.62,london,1028,2026-05-21 04:45
+294.48,"Washington, District of Columbia",1018,2026-05-21 04:45
+283.46,"paris, France",1028,2026-05-21 04:42
+283.46,"Paris, Kentucky ",1028,2026-05-21 04:42
+282.62,london,1028,2026-05-21 04:42
+294.53,"Washington, District of Columbia",1018,2026-05-21 04:42
+283.46,"paris, France",1028,2026-05-21 04:41
+283.46,"Paris, Kentucky ",1028,2026-05-21 04:41
+282.62,london,1028,2026-05-21 04:41
+294.53,"Washington, District of Columbia",1018,2026-05-21 04:41
+283.46,"paris, France",1028,2026-05-21 04:40
+283.46,"Paris, Kentucky ",1028,2026-05-21 04:40
+282.62,london,1028,2026-05-21 04:40
+294.53,"Washington, District of Columbia",1018,2026-05-21 04:40
+283.46,"paris, France",1028,2026-05-21 04:39
+283.46,"Paris, Kentucky ",1028,2026-05-21 04:39
+282.62,london,1028,2026-05-21 04:39
+294.53,"Washington, District of Columbia",1018,2026-05-21 04:39
+283.46,"paris, France",1028,2026-05-21 04:38
+283.46,"Paris, Kentucky ",1028,2026-05-21 04:38
+282.62,london,1028,2026-05-21 04:38
+294.53,"Washington, District of Columbia",1018,2026-05-21 04:38
+283.24,"paris, France",1028,2026-05-21 04:37
+283.24,"Paris, Kentucky ",1028,2026-05-21 04:37
+282.62,london,1028,2026-05-21 04:37
+294.61,"Washington, District of Columbia",1018,2026-05-21 04:37
+283.24,"paris, France",1028,2026-05-21 04:36
+283.24,"Paris, Kentucky ",1028,2026-05-21 04:36
+282.62,london,1028,2026-05-21 04:36
+294.61,"Washington, District of Columbia",1018,2026-05-21 04:36
+283.24,"paris, France",1028,2026-05-21 04:35
+283.24,"Paris, Kentucky ",1028,2026-05-21 04:35
+282.62,london,1028,2026-05-21 04:35
+294.61,"Washington, District of Columbia",1018,2026-05-21 04:35
+283.24,"paris, France",1028,2026-05-21 04:34
+283.24,"Paris, Kentucky ",1028,2026-05-21 04:34
+282.62,london,1028,2026-05-21 04:34
+294.61,"Washington, District of Columbia",1018,2026-05-21 04:34
+283.24,"paris, France",1028,2026-05-21 04:33
+283.24,"Paris, Kentucky ",1028,2026-05-21 04:33
+282.62,london,1028,2026-05-21 04:33
+294.61,"Washington, District of Columbia",1018,2026-05-21 04:33
+283.24,"paris, France",1028,2026-05-21 04:32
+283.24,"Paris, Kentucky ",1028,2026-05-21 04:32
+282.62,london,1028,2026-05-21 04:32
+294.61,"Washington, District of Columbia",1018,2026-05-21 04:32
+283.24,"paris, France",1028,2026-05-21 04:31
+283.24,"Paris, Kentucky ",1028,2026-05-21 04:31
+282.62,london,1028,2026-05-21 04:31
+294.5,"Washington, District of Columbia",1018,2026-05-21 04:31
+283.24,"paris, France",1028,2026-05-21 04:30
+283.24,"Paris, Kentucky ",1028,2026-05-21 04:30
+282.62,london,1028,2026-05-21 04:30
+294.5,"Washington, District of Columbia",1018,2026-05-21 04:30
+283.24,"paris, France",1028,2026-05-21 04:29
+283.24,"Paris, Kentucky ",1028,2026-05-21 04:29
+282.62,london,1028,2026-05-21 04:29
+294.5,"Washington, District of Columbia",1018,2026-05-21 04:29
+283.24,"paris, France",1028,2026-05-21 04:28
+283.24,"Paris, Kentucky ",1028,2026-05-21 04:28
+282.62,london,1028,2026-05-21 04:28
+294.5,"Washington, District of Columbia",1018,2026-05-21 04:28
+283.24,"paris, France",1028,2026-05-21 04:27
+283.24,"Paris, Kentucky ",1028,2026-05-21 04:27
+282.62,london,1028,2026-05-21 04:27
+294.5,"Washington, District of Columbia",1018,2026-05-21 04:27
+283.18,"paris, France",1028,2026-05-21 04:26
+283.18,"Paris, Kentucky ",1028,2026-05-21 04:26
+282.62,london,1028,2026-05-21 04:26
+294.58,"Washington, District of Columbia",1018,2026-05-21 04:26
+283.18,"paris, France",1028,2026-05-21 04:25
+283.18,"Paris, Kentucky ",1028,2026-05-21 04:25
+282.62,london,1028,2026-05-21 04:25
+294.58,"Washington, District of Columbia",1018,2026-05-21 04:25
+283.18,"paris, France",1028,2026-05-21 04:24
+283.18,"Paris, Kentucky ",1028,2026-05-21 04:24
+282.62,london,1028,2026-05-21 04:24
+294.58,"Washington, District of Columbia",1018,2026-05-21 04:24
+283.18,"paris, France",1028,2026-05-21 04:23
+283.18,"Paris, Kentucky ",1028,2026-05-21 04:23
+282.62,london,1028,2026-05-21 04:23
+294.58,"Washington, District of Columbia",1018,2026-05-21 04:23
+283.18,"paris, France",1028,2026-05-21 04:22
+283.18,"Paris, Kentucky ",1028,2026-05-21 04:22
+282.62,london,1028,2026-05-21 04:22
+294.58,"Washington, District of Columbia",1018,2026-05-21 04:22
+283.17,"paris, France",1028,2026-05-21 04:21
+283.17,"Paris, Kentucky ",1028,2026-05-21 04:21
+282.62,london,1028,2026-05-21 04:21
+294.46,"Washington, District of Columbia",1018,2026-05-21 04:21
+283.17,"paris, France",1028,2026-05-21 04:20
+283.17,"Paris, Kentucky ",1028,2026-05-21 04:20
+282.62,london,1028,2026-05-21 04:20
+294.46,"Washington, District of Columbia",1018,2026-05-21 04:20
+285.16,"paris, France",1028,2026-05-20 23:53
+285.04,"Paris, Kentucky ",1028,2026-05-20 23:53
+284.85,london,1028,2026-05-20 23:53
+296.91,"Washington, District of Columbia",1016,2026-05-20 23:53
+285.2,"paris, France",1028,2026-05-20 23:39
+285.2,"Paris, Kentucky ",1028,2026-05-20 23:39
+285.4,london,1028,2026-05-20 23:39
+296.9,"Washington, District of Columbia",1016,2026-05-20 23:39
+285.52,"paris, France",1028,2026-05-20 23:29
+285.52,"Paris, Kentucky ",1028,2026-05-20 23:29
+285.4,london,1027,2026-05-20 23:29
+296.81,"Washington, District of Columbia",1015,2026-05-20 23:29
+285.57,"paris, France",1028,2026-05-20 23:23
+285.55,"Paris, Kentucky ",1028,2026-05-20 23:23
+285.4,london,1027,2026-05-20 23:23
+296.74,"Washington, District of Columbia",1015,2026-05-20 23:23
+285.57,"paris, France",1028,2026-05-20 23:22
+285.55,"Paris, Kentucky ",1028,2026-05-20 23:22
+285.4,london,1027,2026-05-20 23:22
+296.74,"Washington, District of Columbia",1015,2026-05-20 23:22
+285.57,"paris, France",1028,2026-05-20 23:16
+285.55,"Paris, Kentucky ",1028,2026-05-20 23:16
+285.4,london,1027,2026-05-20 23:16
+296.74,"Washington, District of Columbia",1015,2026-05-20 23:16
+286.69,"paris, France",1028,2026-05-20 00:00
+286.69,"Paris, Kentucky ",1028,2026-05-20 00:00
+285.4,london,1027,2026-05-20 00:00
+296.5,"Washington, District of Columbia",1015,2026-05-20 00:00
