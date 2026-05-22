@@ -40,7 +40,19 @@ exam_start:
 	docker-compose -f docker-compose-exam.yaml up -d
 
 exam_down:
-	docker-compose -f docker-compose-exam.yaml down 
+	docker-compose -f docker-compose.yaml down 
 
 exam_ps:
 	docker-compose -f docker-compose-exam.yaml ps
+
+clean-logs: ## Supprime les logs Airflow
+	find logs/ -name "*.log" -delete
+
+clean-cache: ## Nettoie le cache de build Docker
+	docker builder prune -f
+
+clean-venv: ## Supprime le venv
+	rm -rf .venv
+
+restore-venv: ## restore le venv
+	uv sync
